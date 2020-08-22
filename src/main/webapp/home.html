@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<form action="get_post_example">
+			Enter text : <input type="text" name="param"> <input type="submit">
+		</form>
+
+		<a href="/servlet_1/get_post_example">Click here</a> <br> <br><br>
+		<form action="get_post_example" method="get">
+			Get example : <input type="text" name="param"> <input type="submit">
+		</form>
+
+		<br> <br>
+		<form action="get_post_example" method="post">
+			Post example : <input type="text" name="param"> <input type="submit">
+		</form>
+		<br> <br><br>
+
+		<form action="session_example" method="post">
+			Session example : <input type="text" name="param"> <input type="submit">
+		</form>
+		<a href="/servlet_1/session_example">Session Example</a> <br> <br><br>
+		
+		<br> <br><br>
+
+		<form action="request_dispatcher_1" method="post">
+			Request Dispatcher example : <input type="text" name="name"> <input type="submit">
+		</form>
+		<br> <br><br>
+		<a href="/servlet_1/servlet_context">Servlet Context Example</a> <br> <br><br>
+		
+		<br> <br><br>
+		
+	</div>
+</body>
+</html>
